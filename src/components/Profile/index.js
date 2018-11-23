@@ -1,15 +1,5 @@
 import React from 'react';
-
-
-class Profile extends React.Component {
-    // state = { counter: 0 }
-  
-    // incrementCounter = incrementValue => {
-    //   this.setState(prevstate => ({
-    //     counter: prevstate.counter + incrementValue
-    //   }))
-    // }
-  
+class Profile extends React.Component {  
     render() {
       return (
         <div>
@@ -18,5 +8,4 @@ class Profile extends React.Component {
       )
     }
   }
-  
   export default Profile
